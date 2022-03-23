@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../Image/img.jpg" rel="icon" />
+    <title>BoxModel</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      .container {
+        display: inline-block;
+        width: 100%;
+        /* background-color:red; */
+      }
+      .card {
+        width: 22%;
+        background-color: blueviolet;
+        height: 350px;
+        overflow-y: scroll;
+        /* display: inline-block; */
+        float: left;
+        margin-left: 3%;
+      }
+      .card > h2 {
+        text-align: center;
+        color: #5b665b;
+      }
+      .image {
+        width: 100%;
+        height: 100px;
+      }
+      .oderList {
+        width: 22%;
+        height: 200px;
+        float: left;
+        background-color: greenyellow;
+        margin-left: 3%;
+        overflow: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Developer City</h1>
+    <hr />
+    <div class="container">
+      <div class="card" style="background-color: #cd9370">
+        <img src="../Image/londan.jpg" alt="londan" class="image" />
+        <h2>Londan</h2>
+        <p>
+          <b>Londan</b> Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley
+          of type and scrambled it to make a type specimen book. It has survived
+          not only five centuries, but also the leap into electronic
+          typesetting, remaining essentially unchanged. It was popularised in
+          the 1960s with the release of Letraset sheets containing Lorem Ipsum
+          passages, and more recently with desktop publishing software like
+          Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <p>
+          <b>Londan</b> Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley
+          of type and scrambled it to make a type specimen book. It has survived
+          not only five centuries, but also the leap into electronic
+          typesetting, remaining essentially unchanged. It was popularised in
+          the 1960s with the release of Letraset sheets containing Lorem Ipsum
+          passages, and more recently with desktop publishing software like
+          Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+      <div class="card" style="background-color: #c7ced6">
+        <img src="../Image/Japan.jpg" alt="Japan" class="image" />
+        <h2>Japan</h2>
+        <p>
+          <b>Japan</b> Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley
+          of type and scrambled it to make a type specimen book. It has survived
+          not only five centuries, but also the leap into electronic
+          typesetting, remaining essentially unchanged. It was popularised in
+          the 1960s with the release of Letraset sheets containing Lorem Ipsum
+          passages, and more recently with desktop publishing software like
+          Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+      <div class="card" style="background-color: #c3d7e9">
+        <img src="../Image/america.jpg" alt="america" class="image" />
+        <h2>America</h2>
+        <p>
+          <b>America</b> Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley
+          of type and scrambled it to make a type specimen book. It has survived
+          not only five centuries, but also the leap into electronic
+          typesetting, remaining essentially unchanged. It was popularised in
+          the 1960s with the release of Letraset sheets containing Lorem Ipsum
+          passages, and more recently with desktop publishing software like
+          Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+      <div class="card" style="background-color: #c3d7e9">
+        <img src="../Image/nepal.jpg" alt="Japan" class="image" />
+        <h2>nepal</h2>
+        <p>
+          <b>nepal</b> Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley
+          of type and scrambled it to make a type specimen book. It has survived
+          not only five centuries, but also the leap into electronic
+          typesetting, remaining essentially unchanged. It was popularised in
+          the 1960s with the release of Letraset sheets containing Lorem Ipsum
+          passages, and more recently with desktop publishing software like
+          Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="oderList">
+        <dl>
+          <dt>Languages</dt>
+          <dd>Hindi</dd>
+          <dd>English</dd>
+          <dd>Mathli</dd>
+          <dd>Hindi</dd>
+        </dl>
+      </div>
+      <div class="oderList">
+        <ul type="square">
+          <li>Rohit</li>
+          <li>Virkam</li>
+          <li>Ashish</li>
+          <li>Vishal</li>
+          <li>Suraj</li>
+        </ul>
+      </div>
+      <div class="oderList">
+        <ol type="I" start="6">
+          <li>Rohit</li>
+          <li>Virkam</li>
+          <li>Ashish</li>
+          <li>Vishal</li>
+          <li>Suraj</li>
+        </ol>
+      </div>
+      <div class="oderList">
+        <ol type="A" start="6">
+          <li>Rohit</li>
+          <li>Virkam</li>
+          <li>Ashish</li>
+          <li>Vishal</li>
+          <li>Suraj</li>
+        </ol>
+      </div>
+    </div>
+    <hr />
+    <footer>
+      <h1>&copy; Developer &hearts; funnel</h1>
+    </footer>
+  </body>
+</html>
