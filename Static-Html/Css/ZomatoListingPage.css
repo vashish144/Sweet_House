@@ -47,6 +47,7 @@ body {
       height:500px;
       border:1px solid blue;
       float:left;
+      margin-top:2%;
   }
   .listing-rightside{
     width:76%;
