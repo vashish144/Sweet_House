@@ -15,11 +15,28 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <style>
+      body {
+        background-color: white;
+        color: black;
+      }
+      .mydark {
+        background-color: black;
+        color: white;
+      }
+    </style>
+    <script>
+      function changeMode() {
+        let mybody = document.body;
+        mybody.classList.toggle("mydark");
+      }
+    </script>
     <title>ZomatoHomePage</title>
   </head>
-  <body>
+  <body class="">
     <div class="Head">
       <div class="logo">Zomato</div>
+      <button onclick="changeMode()">changemode</button>
       <div class="social-icons">
         <a href="https://www.facebook.com/" target="_blank"
           ><img src="../Image/fb.png" alt="fb"
