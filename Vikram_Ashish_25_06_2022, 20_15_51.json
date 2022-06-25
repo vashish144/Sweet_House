@@ -1,0 +1,175 @@
+{
+    "basics": {
+        "name": "Vikram Ashish",
+        "label": "Frontend Developer",
+        "image": "",
+        "email": "vashish144@gmail.com",
+        "phone": "+91 8271272480",
+        "url": "www.github.com/sadanandpai/",
+        "summary": "I am a web developer having expertise in frontend development and exposure to back- end development. I design and develop web applications using the latest technologies to deliver the product with quality code.",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Bihar",
+            "countryCode": "",
+            "region": ""
+        },
+        "relExp": "1.3 years",
+        "totalExp": "1.3",
+        "objective": "Eager to expand my skill set through external trainings to help boost all major front desk KPIs. Hoping to leverage organizational skills to help ABC Corp introduce time-saving schemes for all executives.",
+        "profiles": [
+            {
+                "network": "linkedin",
+                "username": "Vikram Ashish",
+                "url": "https://www.linkedin.com/in/vikram-ashish-5702b9190/"
+            },
+            {
+                "network": "github",
+                "username": "vashish144",
+                "url": "https://github.com/vashish144"
+            },
+            {
+                "network": "hackerrank",
+                "username": "",
+                "url": ""
+            },
+            {
+                "network": "leetcode",
+                "username": "",
+                "url": ""
+            }
+        ]
+    },
+    "skills": {
+        "languages": [
+            {
+                "name": "JavaScript",
+                "level": 4
+            },
+            {
+                "name": "HTML5",
+                "level": 4
+            },
+            {
+                "name": "CSS",
+                "level": 4
+            }
+        ],
+        "frameworks": [
+            {
+                "name": "React",
+                "level": 4.5
+            },
+            {
+                "name": "Node Js",
+                "level": 4
+            }
+        ],
+        "libraries": [
+            {
+                "name": "jQuery",
+                "level": 3
+            },
+            {
+                "name": "Redux",
+                "level": 3
+            }
+        ],
+        "databases": [
+            {
+                "name": "MongoDb",
+                "level": 1
+            }
+        ],
+        "technologies": [
+            {
+                "name": "Progressive Web Apps",
+                "level": 3
+            },
+            {
+                "name": "SQL",
+                "level": 3
+            }
+        ],
+        "practices": [
+            {
+                "name": "Component based architecture",
+                "level": 3
+            },
+            {
+                "name": "Agile methodology",
+                "level": 3
+            },
+            {
+                "name": "Design Patterns",
+                "level": 3
+            },
+            {
+                "name": "Test Driven Development",
+                "level": 3
+            },
+            {
+                "name": "MVC",
+                "level": 3
+            }
+        ],
+        "tools": [
+            {
+                "name": "Git",
+                "level": 3
+            },
+            {
+                "name": "VS Code",
+                "level": 3
+            },
+            {
+                "name": "Jira",
+                "level": 3
+            },
+            {
+                "name": "Bitbucket",
+                "level": 3
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Capgemini",
+            "position": " Associative Software Developer",
+            "url": "",
+            "startDate": "Apr 2021",
+            "endDate": "present",
+            "years": "1.3 years",
+            "highlights": [],
+            "summary": "* Use my extensive experience with front end development to define the structure and components for the project, making sure they are reusable\n* Keep the code quality high reviewing code from other developers and suggesting improvements\n* Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality\n* E-commerce maintenance **with Fastcommerce**"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Astric - Center of Excellence, Patna",
+            "url": "https://astric.net/Forms/frmIndex.aspx",
+            "studyType": "PGDAC",
+            "area": "Computer Science",
+            "startDate": "2020",
+            "endDate": "2021",
+            "score": "74.60",
+            "courses": []
+        },
+        {
+            "institution": " Loknayak Jai prakesh Institute of Technology Chapra, Bihar",
+            "url": " https://www.lnjpitchapra.in/",
+            "studyType": " B.Tech (EEE)",
+            "area": " Electrical and Electronics Engineering",
+            "startDate": " 2015",
+            "endDate": " 2019",
+            "score": " 74.70 ",
+            "courses": []
+        }
+    ],
+    "activities": {
+        "involvements": "* Created custom components such as megamenu, stepWizard, Modals etc. .\n* These custom components can be reusable. So that other application can consume these components to avoid rewriting of code.\n* Created themes along with implemented functionality of PWA. \n* Developed cross platform mobile application theme with react.\n* Hosted dummy API used for creating theme on Heroku.\n* Hosted theme on Firebase.\n* Worked as making page responsive on Tri-anim Project.",
+        "achievements": "* ReactJS Certificate from Capgemini DCX Academy 2021.\n * Agile Software Development Certificate from coursera.\n  * Agile With Atlassian Jira Certificate from coursera. "
+    },
+    "volunteer": [],
+    "awards": []
+}
